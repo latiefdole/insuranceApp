@@ -13,7 +13,7 @@ class User extends Authenticatable
     protected $connection = 'mysql';
     protected $table = "users";
     protected $fillable = ['name', 'email','username', 'password','level'];
-    protected $hidden = ['password', 'remember_token'];
+    protected $hidden = ['password'];
         // use HasFactory, Notifiable;
 
     // /**
